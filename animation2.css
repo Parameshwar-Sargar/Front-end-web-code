@@ -1,0 +1,254 @@
+.box1{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    /* animation-direction: alternate; */
+    background-color: red;
+}
+.box2{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+    background-color: black;
+}
+.box3{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;    
+    animation-timing-function: ease-in-out;
+    background-color: yellow;
+}
+.box4{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box4;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;    
+    animation-timing-function: ease-in-out;
+      /* background-image: radial-gradient(yellow,skyblue,red,black); */
+
+}
+.box5{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box5;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;    
+    animation-timing-function: ease-in-out;
+    /* background-color: green; */
+}
+.box6{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box6;
+
+}
+.box7{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box7;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+.box8{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box8;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+.box9{
+    border: solid red 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation-name: box9;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes box1 {
+    0%{
+        margin-left: opx;
+        margin-top: 0px;
+    }
+    10%{
+        margin-left: 500px;
+        margin-top: 0px;
+        transform: rotate(360deg);
+    }
+    25%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 500px;
+        margin-top: opx;
+    }
+    75%{
+        margin-left: 500px;
+        margin-top: opx;
+    }
+    100%{
+        margin-left: 500px;
+        margin-top: opx;
+    }
+    
+}
+
+@keyframes box2 {
+    0%{
+        margin-left: opx;
+        margin-top: 0px;
+    }
+    10%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    25%{
+        margin-left: 980px;
+        margin-top: 0px;
+        transform: rotate(360deg);
+    }
+    50%{
+        margin-left: 980px;
+        margin-top: opx;
+    }
+    75%{
+        margin-left: 980px;
+        margin-top: opx;
+    }
+    100%{
+        margin-left: 980px;
+        margin-top: 0px;
+    }
+    
+}
+
+@keyframes box3 {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    10%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    25%{
+        margin-left: 980px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 980px;
+        margin-top: 250px;
+        transform: rotate(360deg);
+    }
+    75%{
+        margin-left: 980px;
+        margin-top: 250px;
+        background: conic-gradient(from -90deg, green 0deg,green 90deg ,yellow 90deg,yellow 180deg,blue 180deg,blue 270deg,red 270deg,red 360deg); 
+
+    }
+    100%{
+        margin-left: 980px;
+        margin-top: 250px;
+        background: conic-gradient(from -90deg, green 0deg,green 90deg ,yellow 90deg,yellow 180deg,blue 180deg,blue 270deg,red 270deg,red 360deg); 
+    }
+    
+}
+
+@keyframes box4 {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    10%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    25%{
+        margin-left: 980px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 980px;
+        margin-top: 250px;
+    }
+    75%{
+        margin-left: 500px;
+        margin-top: 250px;
+        transform: rotate(360deg);
+        background-image: radial-gradient(yellow,skyblue,red,black);
+    }
+    100%{
+        margin-left: 500px;
+        margin-top: 250px;
+        background-image: radial-gradient(yellow,skyblue,red,black);
+
+    }
+    
+}
+@keyframes box5 {
+    0%{
+        margin-left: opx;
+        margin-top: 0px;
+    }
+    10%{
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+    25%{
+        margin-left: 980px;
+        margin-top: 0px;        
+        /* background-image: linear-gradient(to bottom right, red, blue, green); */
+
+    }
+    50%{
+        margin-left: 980px;
+        margin-top: 250px;       
+        /* background-image: linear-gradient(to bottom right, red, blue, green); */
+
+    }
+    75%{
+        margin-left: 500px;
+        margin-top: 250px;
+        /* background-image: linear-gradient(to bottom right, red, blue, green); */
+
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 250px;
+        transform: rotate(360deg);
+        background-image: linear-gradient(to bottom right, red, blue, green);
+    }
+    
+}
+

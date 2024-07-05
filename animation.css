@@ -1,0 +1,86 @@
+.animation{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     border: 2px solid red;
+     position: absolute;
+}
+.animation1{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid red;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay : 2s;
+    background: linear-gradient(red,yellow,rgb(240, 83, 109));
+}
+.box2{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid red;
+    position: absolute;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    background: linear-gradient(red,yellow,rgb(240, 83, 109));
+
+}
+.box3{
+width: 70px;
+height: 770px;
+border-radius: 50%;
+border: 2px solid red;
+position: absolute;
+animation-name: change3;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+background-color: blue;
+}
+
+
+@keyframes change {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+    25%{
+        margin-left: 300px;
+        margin-top: 450px;
+    }
+    50%{
+        margin-top: 0px;
+        margin-left: 500px;
+
+    }
+    100%{
+        margin-left: 100%;
+        margin-top: 450px;
+    }
+}
+
+@keyframes change2 {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+    25%{
+        margin-left: 500px;
+        margin-top: 300px;
+    }
+    50%{
+        margin-top: 400px;
+        margin-left: 0%;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+}

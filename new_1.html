@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new box</title>
+    <style>
+        .box{
+            width: 40%;
+            height: 300px;
+            margin: 150px auto;
+            background: green;
+            overflow: hidden;
+        }
+        .childbox1{
+            width: 66%;
+            height: 150px;
+            background: orange;
+            position: relative;
+            z-index: 9999;
+        }
+        .childbox2{
+            width: 33%;
+            height: 250px;
+            background: orange;
+            left: 250px;
+            bottom: 265px;
+            position: relative;
+            transform: rotate(44.8deg);        
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="childbox1"></div>
+        <div class="childbox2"></div>
+    </div>
+</body>
+</html>

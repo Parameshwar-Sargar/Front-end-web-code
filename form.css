@@ -1,0 +1,58 @@
+.box1{
+    /* border: 2px solid red; */
+    display: block;
+    align-items: center;
+    width: 50%;
+    /* border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px; */
+    /* background-image: url("C:/Users/Sambaji Gadade/Downloads/flower2.jpg"); */
+    /* box-shadow: 0px 0px 10px 3px black ; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+
+}
+form{
+    display: block;
+    align-items: center;
+    text-transform: capitalize;
+    color: #f80606;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+body{
+    background-color: darkgoldenrod;
+}
+
+fieldset{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-image: url("C:/Users/Sambaji Gadade/Downloads/flower2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+    width: 50%;
+
+}
+legend{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+}
+label{
+    font-size: 30px;
+}
+button{
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}

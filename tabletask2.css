@@ -1,0 +1,17 @@
+table,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    background-color: lightcyan;
+    color: darkblue;
+    }
+    td:hover{
+        background-color: red;
+        color: yellow;
+        font-size: 15px;
+    }
+    th:hover{
+        background-color: lightcyan;
+        color: darkblue;
+    }

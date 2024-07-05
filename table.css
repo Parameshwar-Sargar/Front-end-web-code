@@ -1,0 +1,26 @@
+.column{
+    font-family: "Pacifico", cursive;
+}
+.column2{
+    font-family: "Caveat", cursive;
+}
+table{
+    background-color: black;
+    align-items:center ;
+    width: 50%;
+    margin-left: 170px;
+}
+tr{
+    background-color: rgb(193, 77, 77);
+    text-align: center;
+    color: black ;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    color: darkorange;
+    font-family:"Eater", serif;
+}
+body{
+    background-color: gray;
+}
